@@ -1,0 +1,85 @@
+.bottomPan {
+    width: 30%;
+    height: 40px;
+    background-color: sandybrown;
+    border-radius: 10px 10px 40px 40px;
+    border-top: 10px solid rosybrown;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.title{
+    background-color: red;
+    color: white;
+
+}
+.meat{
+    align-items: center;
+    height: 20px;
+    width: 20%;
+    background-color: #555;
+    border-radius: 10px;
+    background-color: saddlebrown;
+    border-top: 2px solid darkred;
+}
+.cucumber{
+    height: 20px;
+    width: 15%;
+    background-color: lightgreen;
+    border-radius: 0px 0px 55px 55px;
+    border-bottom: 10px solid darkgreen;
+
+}
+.plate{
+    width: 45%;
+    height: 15px;
+    background-color: darkgray;
+    border-radius: 10px 10px 40px 40px;
+    border-top: 10px solid grey;
+}
+.meatball{
+    height: 50px;
+    width: 50px;
+    background-color: darkred;
+    border-radius: 50%;
+}
+.meatballs-row{
+    display:flex;
+    flex-direction: row;
+}
+.onionring{
+    height: 20px;
+    width: 20px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+.onion-row{
+    gap: 3px;
+    width: 12%;
+    display:flex;
+    flex-direction: row;
+    background-color: darkmagenta;
+}
+.cheese{
+    height: 8px;
+    width: 25%;
+    background-color: yellow;
+    border-bottom: 2px solid darkkhaki;
+}
+.tomato{
+    height: 30px;
+    width: 13%;
+    background-color: red;
+    border-bottom: 2px solid darkred;
+}
+.upperPan{
+    width: 30%;
+    height: 80px;
+    background-color: sandybrown;
+    border-radius: 60px 60px 10px 10px;
+    border-bottom: 10px solid rosybrown;
+}
