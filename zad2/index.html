@@ -3,41 +3,113 @@
 <head>
     <link rel="stylesheet" href="stylesheet.css">
     <meta charset="UTF-8">
-    <title>Hambargar</title>
+    <title>formularo</title>
 </head>
 <body>
     <main class="container">
-        <h1 class="title">HTML & CSS Hamgorger</h1>
-        <section class="upperPan"></section>
-        <section class="cheese"></section>
-        <section class="tomato"></section>
-        <section class="cheese"></section>
-        <section class="cheese"></section>
-        <section class="meat"></section>
-        <section class="onion-row">
-            <div class="onionring"></div>
-            <div class="onionring"></div>
-            <div class="onionring"></div>
-            <div class="onionring"></div>
-            <div class="onionring"></div>
-            <div class="onionring"></div>
-            <div class="onionring"></div>
-            <div class="onionring"></div>
-        </section>
+        <h1 class="info">Employmeent Form</h1>
+        <form>
+            <section class="main-info">
 
-        <section class="meatballs-row">
-            <div class="meatball"></div>
-            <div class="meatball"></div>
-            <div class="meatball"></div>
-        </section>
-        <section class="cucumber"></section>
-        <section class="meat"></section>
-        <section class="meat"></section>
-        <section class="bottomPan"></section>
-        <section class="plate"></section>
+                <label class="text">
+                    <span> First name </span>
+                    <input class="nameAndSurname">
+                </label>
+
+                <label class="text">
+                   <span> Last name </span>
+                    <input class="nameAndSurname">
+                </label>
+            </section>
+
+            <section class="secondary-info">
+                <label class="text">
+                    <span> Email</span>
+                    <input class="secondaryInfo">
+                </label>
 
 
+                <label class="text">
+                    <span> Phone </span>
+                    <input class="secondaryInfo">
+                </label>
 
+                <label class="text">
+                    <span> Date of birth </span>
+                    <input type="date" class="secondaryInfo">
+                </label>
+            </section>
+            <section class="gender">
+                <label class="text">Gender</label>
+                <select name="gender" class="genders">
+                    <option value="male">Male</option>
+                    <option value="women">Women</option>
+                </select>
+            </section>
+            <section class="job">
+                <label class="text">What are you looking for</label>
+                <label>
+                    <input type="checkbox" class="checkbox-round" />
+                    <span>Sofware Enginier</span>
+                </label>
+
+                <label>
+                    <input type="checkbox" class="checkbox-round" />
+                    <span>UX desiner</span>
+                </label>
+
+                <label>
+                    <input type="checkbox" class="checkbox-round" />
+                    <span>Anlytics specialist</span>
+                </label>
+
+                <label>
+                    <input type="checkbox" class="checkbox-round" />
+                    <span>Project manager</span>
+                </label>
+
+            </section>
+
+            <section class="progLang">
+                <label class="text">Which programing langauges do you know?</label>
+
+                <label class="checbox-lang">
+                    <input type="checkbox" class="checkbox-basic" />
+                    <span>Java</span>
+                </label>
+
+                <label class="checbox-lang">
+                    <input type="checkbox" class="checkbox-basic" />
+                    <span>Javascript</span>
+                </label>
+
+                <label class="checbox-lang">
+                    <input type="checkbox" class="checkbox-basic" />
+                    <span>c#</span>
+                </label>
+
+                <label class="checbox-lang">
+                    <input type="checkbox" class="checkbox-basic" />
+                    <span>Kotlin</span>
+                </label>
+
+                <label class="checbox-lang">
+                    <input type="checkbox" class="checkbox-basic" />
+                    <span>Python</span>
+                </label>
+
+                <label class="checbox-lang">
+                    <input type="checkbox" class="checkbox-basic" />
+                    <span>Scala</span>
+                </label>
+            </section>
+            <section>
+                <label class="text">Message</label>
+                <textarea rows="5" cols="50">type your messeage</textarea>
+            </section>
+            <button>reset</button>
+            <button>submit</button>
+        </form>
     </main>
 </body>
 </html>
